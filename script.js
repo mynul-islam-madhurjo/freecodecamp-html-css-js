@@ -1,4 +1,6 @@
 const button = document.getElementById('myButton');
+const messageContainer = document.getElementById('messageContainer');
+
 button.addEventListener('click', () => {
-  alert('Button clicked!');
+    messageContainer.textContent = 'Button clicked!';
 });
