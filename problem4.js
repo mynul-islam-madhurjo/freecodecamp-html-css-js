@@ -1,3 +1,4 @@
+//Bug fix
 function greet(name) {
     if (name === "Madhurjo")
         return "Hello, my love!";
