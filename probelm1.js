@@ -13,7 +13,11 @@ function solution(str){
     }
 }
 
-console.log(solution('mad'));
+function optimizedSolution(str){
+    return str.split('').reverse().join('')
+}
+
+console.log(optimizedSolution('mad'));
 
 
 
