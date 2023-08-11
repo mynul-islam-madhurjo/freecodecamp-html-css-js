@@ -13,6 +13,17 @@ function mainFunction(randomNumber,call,callback){
 }
 //Alternative
 // console.log(mainFunction(20,true,myCallBack))
-console.log(mainFunction(20,true, (num) =>{
+console.log(mainFunction(20,true, function(num) {
     return num*2;
 }))
+
+console.log(mainFunction(20,true, (num) => {
+    return num*2;
+}))
+
+console.log(mainFunction(20,true, num => {
+    return num*2;
+}))
+
+console.log(mainFunction(20,true, num => num*2))
+
