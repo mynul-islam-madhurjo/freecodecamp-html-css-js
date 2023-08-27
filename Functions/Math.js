@@ -15,3 +15,6 @@ const arr = ['Mynul','Islam', 'Madhurjo']
 const randomNumber = Math.floor(Math.random()* arr.length)
 
 console.log(arr[randomNumber])
+
+//Converting a string to number Nan to Number
+console.log(Number('30'));
