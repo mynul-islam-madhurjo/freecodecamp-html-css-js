@@ -1,0 +1,13 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.some-text {
+    color: red;
+}
+
+.div-1 , .div-2 {
+    border: solid;
+    margin: 20px;
+    color: red;
+    background: aqua;
+}

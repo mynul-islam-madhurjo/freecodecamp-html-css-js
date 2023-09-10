@@ -1,0 +1,19 @@
+Normal HTML tags
+
+  <p></p>
+  <h1></h1>
+  <div></div>
+  <span></span>
+  <strong></strong>
+
+ Self Closing Tags
+
+    <img src="" alt="">
+    <input type="text">
+    <meta/>
+    <link rel="stylesheet" href="">
+
+
+ # We can not put anything in the self closing tags.
+ # HTML tags are not case sensitive
+ # Ignores white spaces
