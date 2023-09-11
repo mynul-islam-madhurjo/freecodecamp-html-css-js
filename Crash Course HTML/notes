@@ -17,3 +17,14 @@ Normal HTML tags
  # We can not put anything in the self closing tags.
  # HTML tags are not case sensitive
  # Ignores white spaces
+ # We have two attributes global and element specific attribute.
+ # Global attributes can be accessed from anywhere unlike element specific like width in the img
+
+ DOM
+ # Not a framework not a programming language exists within browser it is an API for HTML
+ # Api is an user manuel that helps in giving functionalities to devs without the need of knowing
+ the technology behind it
+ # Api the dom manipulates the html without knocking how html is being manipulated
+ # when we do something on the browser we actually connect to  the dom then call object
+ like window or document and do stuffs like reload, new tab open, maximize minimize
+ # We can store item in localStorage which saves data in browser temporarily
