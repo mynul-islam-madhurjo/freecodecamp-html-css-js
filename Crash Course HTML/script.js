@@ -11,3 +11,9 @@ button.addEventListener('click', () => {
     }
 });
 
+function addLine(){
+    const newElement = document.createElement('p');
+    newElement.textContent = "This is a new line";
+    const newDocument = document.querySelector("#add-line");
+    newDocument.appendChild(newElement);
+}
