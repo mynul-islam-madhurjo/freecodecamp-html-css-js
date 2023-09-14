@@ -1,4 +1,5 @@
-const button = document.getElementById('myButton');
+//Using id is the best way to do it as it is always unique
+const button = document.getElementById('myButton'); //querySelector
 const messageContainer = document.getElementById('messageContainer');
 
 array =['a', 'b', 'c', 'd', 'e', 'f', 'g'];

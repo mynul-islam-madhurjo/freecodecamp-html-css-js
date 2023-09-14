@@ -28,3 +28,5 @@ Normal HTML tags
  # when we do something on the browser we actually connect to  the dom then call object
  like window or document and do stuffs like reload, new tab open, maximize minimize
  # We can store item in localStorage which saves data in browser temporarily
+
+ #
