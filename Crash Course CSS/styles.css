@@ -47,5 +47,10 @@ p[class='regular-text'] {
     padding: 10px;
 }
 
+/*Selecting the child class from the main class*/
+.box-1 , .box-2 p {
+    text-decoration: underline;
+}
+
 
 
