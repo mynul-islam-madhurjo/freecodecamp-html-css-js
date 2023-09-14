@@ -1,5 +1,4 @@
-//Using id is the best way to do it as it is always unique
-const button = document.getElementById('myButton'); //querySelector
+const button = document.getElementById('myButton');
 const messageContainer = document.getElementById('messageContainer');
 
 array =['a', 'b', 'c', 'd', 'e', 'f', 'g'];
@@ -26,6 +25,13 @@ elementNode.appendChild(textNode);
 elementNode.setAttributeNode(attributeNode);
 //Pushing newly created element into our document
 document.body.appendChild(elementNode);
+
+function addLine(){
+    const newElement = document.createElement('p');
+    newElement.textContent = "This is a new line";
+    const newDocument = document.querySelector("#add-line");
+    newDocument.appendChild(newElement);
+}
 
 
 
