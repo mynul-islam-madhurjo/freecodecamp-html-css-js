@@ -30,6 +30,22 @@ p[class='regular-text'] {
     width: 200px;
 }
 
+/* pseudo class in button */
+.pseudo-class {
+    background-color: navy;
+    color: white;
+    border:none;
+    padding: 10px;
+}
+
+.pseudo-class:hover {
+    background-color: red;
+    cursor:pointer;
+    opacity: 0.7;
+    color: white;
+    border:none;
+    padding: 10px;
+}
 
 
 
