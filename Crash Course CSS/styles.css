@@ -52,5 +52,106 @@ p[class='regular-text'] {
     text-decoration: underline;
 }
 
+/*precedence in css*/
+li {
+    color: green;
+}
+
+/* Latest will be selected */
+li {
+    color: red;
+}
+
+/* It will be selected as it is more specific */
+.list-item {
+    color: blue;
+}
+
+/* Id has more precedence over tag and class */
+#list-item-1{
+    color: orange;
+}
+
+/* This is more specific */
+ol #list-item-1 {
+    color: blueviolet ;
+}
+
+/* ------------------------------------------------------------------------------------------------ */
+
+/* 
+Id selectors - 1
+Class selectors - 0
+Tag Selectors - 1
+
+Specificity of 101 (This is more specific than 100 so it will be more applied)
+*/
+/* 
+Id selectors - 1
+Class selectors - 0
+Tag Selectors - 0 
+
+Specificity of 100
+*/
+
+/* ----------------------------------------------------------------------------------------------- */
+
+/* 
+Id selectors - 0
+Class selectors - 2
+Tag Selectors - 0 
+
+Specificity of 020
+*/
+
+.my-container .my-text {
+    color: red;
+}
+
+/* 
+Id selectors - 2
+Class selectors - 0
+Tag Selectors - 0 
+
+Specificity of 200
+*/
+
+#container-id #text-id {
+    /* This is selected as it is more sepcific */
+    color: orange;
+}
+
+/* Inline css and important styles */
+#inline-css {
+    /* wont work */
+    color:bisque; 
+}
+
+#inline-css {
+    /* will work because of important over inline css */
+    color:bisque !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
