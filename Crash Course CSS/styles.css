@@ -1,0 +1,9 @@
+/*selecting something from inside a main class*/
+.main p {
+    color: red;
+}
+/*selecting specific class within tag*/
+p[class='regular-text'] {
+    color: aqua;
+}
+
