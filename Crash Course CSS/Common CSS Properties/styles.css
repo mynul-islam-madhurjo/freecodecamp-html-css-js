@@ -35,7 +35,7 @@ nav {
 
 /* relative positioning */
 .relative-poistion {
-    position: relative;
+    /* position: relative; */
     top: 10px;
 }
 
@@ -46,6 +46,7 @@ nav {
     background-color: orange;
     width: 20px;
     height: 20px;
-    top: 20px;
-    left: 20px;
+    top: 30px;
+    left: 60px;
+    z-index: 2;
 }
