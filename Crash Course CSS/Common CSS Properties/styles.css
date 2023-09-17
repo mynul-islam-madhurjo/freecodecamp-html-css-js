@@ -58,5 +58,8 @@ nav {
     font-size: 1.2rem;
     /* 100% size of the parent element size */
     font-size: 1em;
+}
 
+.font {
+    font-family: 'Roboto', sans-serif;
 }
