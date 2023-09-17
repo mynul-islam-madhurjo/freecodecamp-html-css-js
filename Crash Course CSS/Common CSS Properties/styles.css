@@ -18,6 +18,8 @@ nav {
     width: 100vw;
     top: 0;
     left: 0;
+    /* relative positioning */
+    z-index: 1;
 }
 
 .box {
@@ -29,4 +31,21 @@ nav {
 
 .boxes {
     margin-top: 80px;
+}
+
+/* relative positioning */
+.relative-poistion {
+    position: relative;
+    top: 10px;
+}
+
+/* absolute positioning */
+
+.abs-position {
+    position: absolute;
+    background-color: orange;
+    width: 20px;
+    height: 20px;
+    top: 20px;
+    left: 20px;
 }
