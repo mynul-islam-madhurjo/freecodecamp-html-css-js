@@ -1,0 +1,32 @@
+/* Using position fixed property */
+h1 {
+    margin: 0;
+}
+
+body {
+    margin : 0;
+}
+
+nav {
+    background-color: navy;
+    color: aliceblue;
+    height: 65px;
+    line-height: 65px;
+    /* scrolling wont make the navigation go away */
+    position: fixed;
+    /* width: 100%; */
+    width: 100vw;
+    top: 0;
+    left: 0;
+}
+
+.box {
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+.boxes {
+    margin-top: 80px;
+}
