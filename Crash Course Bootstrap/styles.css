@@ -1,0 +1,15 @@
+.content-1 {
+    background-color: red;
+}
+
+.content-2 {
+    background-color: aqua;
+}
+
+.content-3 {
+    background-color: bisque;
+}
+
+.content-1, .content-2, .content-3 {
+    border: 2px solid black;
+}
