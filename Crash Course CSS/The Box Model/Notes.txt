@@ -1,0 +1,2 @@
+1. display type- can be inline and block. inline shares the same line unlike block.
+2. box sizing - border box chanegas everything it includes padding border size default

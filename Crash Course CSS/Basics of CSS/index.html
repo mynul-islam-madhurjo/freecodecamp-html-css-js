@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Page Title</title>
+    <link rel="stylesheet" href="../Basics of CSS/styles.css">
+</head>
+
+
+<body>
+<h1>Hello, World!</h1>
+<!--selecting something from inside a main class-->
+
+<div class="main">
+    <p>first paragraph</p>
+    <p>second paragraph</p>
+    <p>third paragraph</p>
+</div>
+
+<p>Paragraph outside the main div</p>
+
+<!--Selecting specific class wihtin tag -->
+<p class="regular-text">Specific class within tag</p>
+
+<div class="regular-text">
+    <h1> Specific class within tag 12</h1>
+</div>
+
+<!--CSS code reuse-->
+<div class="box-1">
+    <p>Box 1</p>
+</div>
+
+<div class="box-2">
+    <p>Box 2</p>
+</div>
+
+<!--pseudo class in button-->
+<button class="pseudo-class"> Hover me</button>
+
+<!--precedence in css-->
+<h2>Factors for determining the CSS precedence</h2>
+<ol>
+    <li class="list-item" id="list-item-1"> This is the first</li>
+    <li class="list-item"> This is the second</li>
+    <ol>
+        <li>Count number of Id selector</li>
+        <li>Count number of class selectors</li>
+    </ol>
+</ol>
+
+<!-- Specificity number -->
+<div class="my-container" id="container-id">
+    <p class="my-text" id="text-id"> This is some text</p>
+</div>
+
+ <!-- Inline css has the most precedence over everything except !important keyword in css -->
+
+ <div id="inline-css" style="color: blue; padding: 10px">Not so important</div>
+
+<script src="../Basics of CSS/script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+

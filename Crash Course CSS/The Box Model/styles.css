@@ -1,0 +1,10 @@
+/* styles.css */
+.column {
+    width: 50%; /* Each column should take up 50% of the container's width */
+    padding: 20px;
+    border: 2px solid #333;
+    box-sizing: border-box; /* Include padding and border within the specified width */
+    float: left; /* Float the columns to create a side-by-side layout */
+  }
+  
+  

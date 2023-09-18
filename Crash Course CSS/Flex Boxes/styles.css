@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+    text-align: center;
+}
+
+.box-1 , .box-2 {
+    flex: 50%;
+    border: 2px solid red;
+    margin: 20px;
+    padding: 10px;
+}

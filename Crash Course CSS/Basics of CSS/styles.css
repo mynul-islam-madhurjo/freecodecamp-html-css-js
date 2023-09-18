@@ -1,0 +1,156 @@
+/*selecting something from inside a main class*/
+.main p {
+    color: red;
+}
+/*selecting specific class within tag*/
+p[class='regular-text'] {
+    color: aqua;
+}
+
+/*code reusability*/
+.box-1 {
+    border: 1px solid red;
+    color: red;
+    /*padding: 20px;*/
+    /*margin: 20px;*/
+    /*width: 200px;*/
+}
+
+.box-2{
+    border: 1px solid green;
+    color: green;
+    /*padding: 20px;*/
+    /*margin: 20px;*/
+    /*width: 200px;*/
+}
+
+.box-1 , .box-2 {
+    padding: 20px;
+    margin: 20px;
+    width: 200px;
+}
+
+/* pseudo class in button */
+.pseudo-class {
+    background-color: navy;
+    color: white;
+    border:none;
+    padding: 10px;
+}
+
+.pseudo-class:hover {
+    background-color: red;
+    cursor:pointer;
+    opacity: 0.7;
+    color: white;
+    border:none;
+    padding: 10px;
+}
+
+/*Selecting the child class from the main class*/
+.box-1 , .box-2 p {
+    text-decoration: underline;
+}
+
+/*precedence in css*/
+li {
+    color: green;
+}
+
+/* Latest will be selected */
+li {
+    color: red;
+}
+
+/* It will be selected as it is more specific */
+.list-item {
+    color: blue;
+}
+
+/* Id has more precedence over tag and class */
+#list-item-1{
+    color: orange;
+}
+
+/* This is more specific */
+ol #list-item-1 {
+    color: blueviolet ;
+}
+
+/* ------------------------------------------------------------------------------------------------ */
+
+/* 
+Id selectors - 1
+Class selectors - 0
+Tag Selectors - 1
+
+Specificity of 101 (This is more specific than 100 so it will be more applied)
+*/
+/* 
+Id selectors - 1
+Class selectors - 0
+Tag Selectors - 0 
+
+Specificity of 100
+*/
+
+/* ----------------------------------------------------------------------------------------------- */
+
+/* 
+Id selectors - 0
+Class selectors - 2
+Tag Selectors - 0 
+
+Specificity of 020
+*/
+
+.my-container .my-text {
+    color: red;
+}
+
+/* 
+Id selectors - 2
+Class selectors - 0
+Tag Selectors - 0 
+
+Specificity of 200
+*/
+
+#container-id #text-id {
+    /* This is selected as it is more sepcific */
+    color: orange;
+}
+
+/* Inline css and important styles */
+#inline-css {
+    /* wont work */
+    color:bisque; 
+}
+
+#inline-css {
+    /* will work because of important over inline css */
+    color:bisque !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
