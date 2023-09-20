@@ -10,4 +10,15 @@
 .header-banner .jumbotron {
     margin : 0;
     padding: 100px 60px;
+    background-image: url(https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+}
+
+.header-banner .jumbotron p {
+    font-size: 25px;
+}
+.header-text p,h1{
+    text-align: center;
 }
